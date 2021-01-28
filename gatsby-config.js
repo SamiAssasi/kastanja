@@ -6,10 +6,13 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        accessToken: "Ug_lpW1D1vBJMn4AjRrZ7gAWek79BU5UrrFy3Bf9x9c",
+        accessToken: "4NvmMjG1gOa0-8y2psShmSEvR1klEZLqIOKA2NkaGwQ",
         spaceId: "77ec27xvxmfo",
+        downloadLocal: true
       },
     },
     "gatsby-plugin-sass",
+    "gatsby-plugin-postcss",
+
   ],
 };
