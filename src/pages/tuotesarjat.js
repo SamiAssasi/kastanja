@@ -1,6 +1,7 @@
 import * as React from "react";
 import { ContentfulRichText } from "../components/contentfulRichText";
 import Layout from "../components/Layout";
+import { graphql } from "gatsby";
 
 // markup
 const Tuotesarjat = ({ data }) => {

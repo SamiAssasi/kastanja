@@ -1,8 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import Gallery from "@browniebroke/gatsby-image-gallery";
-import "@browniebroke/gatsby-image-gallery/dist/style.css";
 import Img from "gatsby-image";
+import { graphql } from 'gatsby'
 
 // markup
 const Galleria = ({ data }) => {
