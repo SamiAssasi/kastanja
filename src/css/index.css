@@ -21,5 +21,15 @@
     h4{
         @apply text-xl font-bold 
     }
+    ul{
+        padding-left: 0.5rem;
+        margin-top: -0.5rem
+    }
+    li{
+        list-style: disc;
+    }
+    ::marker{
+        padding-left: 1rem;
+    }
   }
   
