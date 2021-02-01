@@ -6,7 +6,7 @@ import { graphql } from "gatsby";
 // markup
 const Tuotesarjat = ({ data }) => {
   return (
-    <Layout>
+    <Layout title={data.contentfulPage.title}>
       <ContentfulRichText document={data.contentfulPage.sisalto} />
     </Layout>
   );
@@ -27,6 +27,7 @@ export const query = graphql`
           }
         }
       }
+      title
       sys {
         contentType {
           sys {

@@ -16,7 +16,7 @@ import {
 import Img from "gatsby-image";
 
 type Props = {
-  document: RenderRichTextData<ContentfulRichTextGatsbyReference>;
+  document: RenderRichTextData<ContentfulRichTextGatsbyReference>,
 };
 
 function getObjectKeyArray(obj: any): string[] {
@@ -28,7 +28,7 @@ function getObjectKeyArray(obj: any): string[] {
   return arr;
 }
 
-export const ContentfulRichText: React.FC<Props> = ({ document }: Props) => {
+export const ContentfulRichText: React.FC<Props> = ({ document}: Props) => {
   const options: Options = {
     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node) => {

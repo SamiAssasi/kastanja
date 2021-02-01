@@ -4,7 +4,6 @@
 
 @layer base {
     body{
-        background: #EEE;
         white-space: pre-wrap;
     }
     p{
@@ -17,7 +16,7 @@
       @apply text-4xl lg:text-3xl font-bold mb-6 lg:mb-8;
     }
     h3{
-        @apply text-3xl lg:text-2xl font-bold
+        @apply text-3xl lg:text-2xl font-bold mb-1
     }
     h4{
         @apply text-xl font-bold 

@@ -7,18 +7,18 @@ const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
   return (
     <div className="container mx-auto">
-      <nav className="flex items-center justify-between flex-wrap bg-white pt-6 border-b border-black">
-        <div className="flex items-center flex-shrink-0 text-white mr-6">
+      <nav className="flex items-center justify-between flex-wrap bg-white pt-6 border-b border-black relative">
+        <div className="flex items-center flex-1 lg:flex-shrink-0 text-white mr-6">
           <img
-            className="max-w-xs	sm:max-w-sm"
+            className="pl-4 w-64 md:w-max md:max-w-sm"
             src={logo}
-            alt="A dog smiling in a party hat"
+            alt="Kastanja"
           />
         </div>
         <div className="block lg:hidden">
           <button
             onClick={() => toggleExpansion(!isExpanded)}
-            className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+            className="mr-4 lg:relative flex items-center px-3 py-2 border rounded"
           >
             <svg
               className="fill-current h-3 w-3"
