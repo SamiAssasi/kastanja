@@ -21,6 +21,7 @@ const Galleria = ({ data }) => {
 export const query = graphql`
   query galleriaQuery {
     contentfulGalleria {
+      title  
       images {
         fluid(maxHeight: 300, background: "rgb:000000") {
           ...GatsbyContentfulFluid
