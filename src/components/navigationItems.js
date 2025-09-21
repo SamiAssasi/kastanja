@@ -10,7 +10,6 @@ const navigationItems = ({ open }) => {
     >
       <NavigationItem title="Etusivu" slug="/" />
       <NavigationItem title="Galleria" slug="/galleria" />
-      <NavigationItem title="Hinnasto" slug="/hinnasto" />
       <NavigationItem title="Tuotesarjat" slug="/tuotesarjat" />
     </div>
   );
